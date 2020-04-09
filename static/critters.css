@@ -1,0 +1,19 @@
+#map {
+	border : solid 1px gray;
+	padding : 2px;
+	margin-top : 30px;
+	display : inline-block;
+    width: 600px;
+}
+
+.template{
+	display:none;
+}
+
+.critter{
+	display: inline-block; /* this is needed to prevent a new line */
+	position: absolute; /* this is needed to specify exact coordinates */
+	top: 0; /* Change this to the y value of the coordinate */
+	left: 0; /* Change this to the x value of the coordinate */
+	height: 40;
+}

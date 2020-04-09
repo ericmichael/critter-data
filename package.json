@@ -1,0 +1,17 @@
+{
+  "name": "expressdemo",
+  "version": "1.0.0",
+  "description": "Hello World",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.21.6",
+    "sequelize-auto": "^0.4.29",
+    "sqlite3": "^4.1.1"
+  }
+}

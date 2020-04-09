@@ -4,4 +4,4 @@ In this assignment, you're going to replace the fake `data0.json`, `data1.json`,
 
 
 
-Follow the instruction on the PDF on Blackboard!
+Follow the instructions on the PDF on Blackboard!

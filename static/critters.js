@@ -20,7 +20,7 @@ function placeCritters(critter){
 }
 
 //request the critters from the server
-var request = $.ajax("/critters.json");
+var request = $.ajax("/critters");
 
 //fill in the select
 request.success((critters)=>{
@@ -37,7 +37,7 @@ $("#choice").change(() => {
     var index = $("select option:selected").val();
     if(index != null){
         console.log("Option " + index + " selected!");
-        var filename = "/critter/" + index;
+        var filename = "/critters/" + index;
         var request = $.ajax(filename);
         request.success((critter)=>{
             removeCritters();

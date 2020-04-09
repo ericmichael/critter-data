@@ -12,11 +12,11 @@ var server = app.listen(app.get('port'), function () {
     console.log("Server started...")
 });
 
-app.get("/critters.json", function (req, res) {
+app.get("/critters", function (req, res) {
     //send all the critters in JSON format
 });
 
-app.get("/critter/:id", function (req, res){
+app.get("/critters/:id", function (req, res){
     var critter_id = req.params.id;
 
     //find the critter with that id, include Coordinates
